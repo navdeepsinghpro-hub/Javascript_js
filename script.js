@@ -191,14 +191,44 @@
 
 // console.log(lcm);
 
-let start = Number(prompt("Enter start:"));
-let end = Number(prompt("Enter end:"));
+// let start = Number(prompt("Enter start:"));
+// let end = Number(prompt("Enter end:"));
 
-let count =0;
+// for (let n = start; n <= end; n++) {
+//     let count = 0 ;
+//         for (let i = 1; i <= n; i++) {
+//         if (n % i === 0) {
+//         count ++;
+//         }
+//     }
+//     if(count == 2){
+//         console.log(n)
+//     }
+// }
 
-for (let n = start; n <= end; n++) {
-    if(n%start===0){
-        count += 1
-        console.log(n)
-    }
-}
+// let n = Number(prompt("Enter rows:"));
+
+// for (let i = 1; i <= n; i++) {
+//     let row = "";
+
+//     for (let j = 0; j < i; j++) {
+//         row += "*";
+//     }
+
+//     console.log(row);
+// }
+
+// let n = Number(prompt("Enter rows:"));
+// let large = 0;
+// let second = 0;
+
+// while(n>0){
+//     digit = n%10
+//     if(digit > large){
+//         second = large
+//         large = digit
+//     }
+//     n= Math.floor(n/10)
+// }
+
+// console.log(second)

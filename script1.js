@@ -100,4 +100,4 @@
 //     return name +""+ callback
 // }
 
-// console.log(greet("Navdeep", "sayhello"))
+console.log(greet("Navdeep", "sayhello"))
